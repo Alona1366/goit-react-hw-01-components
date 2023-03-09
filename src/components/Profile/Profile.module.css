@@ -1,7 +1,8 @@
 .profileCard {
-    padding-top: 30px;
-    border: 1px solid rgb(206, 197, 197);
-    border-radius: 2px;
+    padding-top: 24px;
+    border: 1px solid rgb(237, 206, 214);
+    border-radius: 4px;
+  background-color: rgb(252, 248, 249);
   }
   .description {
     text-align: center;
@@ -10,31 +11,32 @@
   .avatar {
     border-radius: 50%;
     width: 250px;
-    margin-bottom: 20px;
-    border: 1px solid rgb(206, 197, 197);
+    margin-bottom: 24px;
+    /* border: 1px solid rgb(206, 197, 197); */
+    background-color: rgb(255, 255, 255);
   }
   
   .name {
     margin: 0;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
   }
   
   .tag {
     margin: 0;
-    margin-bottom: 10px;
-    font-size: 26px;
+    margin-bottom: 24px;
+    font-size: 24px;
     font-weight: 500;
-    color: rgb(101, 103, 104);
+    color: rgb(185, 75, 104);
   }
   
   .location {
     margin: 0;
     margin-bottom: 20px;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 500;
-    color: rgb(101, 103, 104);
+    color: rgb(185, 75, 104);
   }
   
   .stats {
@@ -49,20 +51,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     width: 164px;
     height: 164px;
-    background-color: rgb(212, 226, 243);
-    border: 1px solid rgb(206, 197, 197);
+    background-color: rgb(228, 182, 194);
+    border: 1px solid rgb(219, 157, 173);
   }
   
   .label {
     font-size: 16px;
     font-weight: 500;
-    color: rgb(101, 103, 104);
+    color:rgb(188, 71, 102);
   }
   
   .quantity {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 500;
+    color: rgb(158, 10, 48);
   }
